@@ -1,0 +1,41 @@
+.main-bg-container {
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(28, 27, 27);
+    animation: animations 6s 4s infinite alternate;
+}
+@keyframes animations {
+    0% {
+
+    }
+    10%{
+        background-color: rgb(31, 255, 244);
+    }
+    20%{
+        background-color: rgb(253, 0, 0);
+    }
+    30%{
+        background-color: rgb(253, 187, 6);
+    }
+    40%{
+        background-color: rgb(3, 10, 215);
+    }
+    50%{
+        background-color: rgb(51, 206, 115);
+    }
+    60%{
+        background-color: rgb(129, 101, 126);
+    }
+    70%{
+        background-color: rgb(14, 94, 222);
+    }
+    80%{
+        background-color: rgb(200, 17, 210);
+    }
+    90%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: rgb(77, 206, 30);
+    }
+}
